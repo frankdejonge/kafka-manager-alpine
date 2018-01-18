@@ -1,0 +1,7 @@
+ansible
+artifacts
+.gitlab-ci.yml
+.gitignore
+ansible.cfg
+build.sh
+docker-compose.yml
