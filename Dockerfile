@@ -2,7 +2,7 @@ FROM java:8-jre-alpine
 
 ENV SERVICE_HOME=/opt/kafka-manager \
     SERVICE_NAME=kafka-manager \
-    SERVICE_VERSION=1.3.3.15 \
+    SERVICE_VERSION=1.3.3.22 \
     SERVICE_URL=https://github.com/yahoo/kafka-manager
 ENV SERVICE_CONF=${SERVICE_HOME}/conf/application.conf \
     DOWNLOAD_URL=https://github.com/yahoo/kafka-manager/archive/${SERVICE_VERSION}.tar.gz \
