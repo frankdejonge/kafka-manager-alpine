@@ -1,3 +1,4 @@
 artifacts/*
 !artifacts/build.sh
 .env
+kafka-manager-*.zip
