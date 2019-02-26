@@ -20,4 +20,4 @@ RUN set -ex && apk --no-cache add bash
 
 EXPOSE 9000
 
-CMD ${SERVICE_HOME}/bin/kafka-manager -Dkafka-manager.zkhosts=${ZK_HOSTS} -Dconfig.file=${SERVICE_HOME}/conf/application.conf -Dhttp.port=9000
+CMD ${SERVICE_HOME}/bin/kafka-manager -Dpidfile.path=/dev/null -Dkafka-manager.zkhosts=${ZK_HOSTS} -Dconfig.file=${SERVICE_HOME}/conf/application.conf -Dhttp.port=9000
